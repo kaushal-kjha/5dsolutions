@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-// const serverURI = 'mongodb://172.31.56.96:23047/blokchiMainDB';
 const serverURI = 'mongodb://0.0.0.0:27017/category';
 
 mongoose.connect(serverURI, {
